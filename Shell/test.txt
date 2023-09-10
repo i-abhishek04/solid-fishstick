@@ -1,0 +1,6 @@
+Employee name is anu
+Employee ID is 1
+Employee salary is 123
+Employee name is anu
+Employee ID is 2
+Employee salary is 1234

@@ -1,0 +1,10 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "FIRST.C": "cpp",
+        "algorithm": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp"
+    },
+    "code-runner.terminalRoot": "/",
+}
