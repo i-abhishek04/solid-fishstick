@@ -40,8 +40,8 @@ int currAns(vector<int>& bloomDay, const int& mid, const int&k){
 int minDays(vector<int>& bloomDay, int m, int k) {
     int siz=bloomDay.size();
     if(m*k>siz) return -1;
-    int low=mini(bloomDay,siz),high=maxi(bloomDay,siz);
-    cout<<"low:"<<low<<" "<<"high:"<<high<<endl;
+    int low= *min_element(bloomDay.begin(),bloomDay.end()),high=*max_element(bloomDay.begin(),bloomDay.end());
+    // cout<<"low:"<<low<<" "<<"high:"<<high<<endl;
     int mid,ans;
     while(low<=high){
         ans=0;
@@ -55,7 +55,7 @@ int minDays(vector<int>& bloomDay, int m, int k) {
         else
             high=mid-1;
         
-        cout<<"low:"<<low<<" "<<"high:"<<high<<endl;
+        // cout<<"low:"<<low<<" "<<"high:"<<high<<endl;
     }
     return low;
 }
