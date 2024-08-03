@@ -7,4 +7,6 @@
         "ostream": "cpp"
     },
     "code-runner.terminalRoot": "/",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
 }
