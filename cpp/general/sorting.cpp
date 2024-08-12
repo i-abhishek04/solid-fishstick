@@ -7,8 +7,7 @@ using namespace std;
 void printArray(vector<int> nums, int siz)
 {
     for (int i = 0; i < siz; i++)
-        cout << nums[i] << " ";
-    cout << endl;
+        cout << nums[i] << " 
 }
 
 void bubbleSort(vector<int> nums, int siz)

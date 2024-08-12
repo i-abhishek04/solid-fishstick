@@ -1,10 +1,13 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
+        "*.ejs": "html",
         "FIRST.C": "cpp",
         "algorithm": "cpp",
         "iostream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "istream": "cpp",
+        "ios": "cpp"
     },
     "code-runner.terminalRoot": "/",
     "python.analysis.typeCheckingMode": "basic",
