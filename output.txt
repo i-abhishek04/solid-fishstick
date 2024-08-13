@@ -1,2 +1,6 @@
-enter number of rows: enter number of columns: enter 16 elements in ascending order
-enter the number to search: 27 not found
+enter number of rows: 
+enter number of columns: 
+enter 16 elements in ascending order
+
+enter the number to search: 
+27 found at index 3,1

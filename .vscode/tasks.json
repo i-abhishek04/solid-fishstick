@@ -25,7 +25,10 @@
         "<",
         "input.txt",
         ">",
-        "output.txt"
+        "output.txt",
+        "&&",
+        "rm",
+        "${fileBasenameNoExtension}"
       ],
       "group": {
         "kind": "build",
