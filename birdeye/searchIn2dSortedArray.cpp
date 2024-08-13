@@ -23,7 +23,7 @@ pair<int,int> search2d(vector<vector<int>>& matrix, int num){
     {
         if (matrix[i][j]==num)
             return {i, j};
-        else if (matrix[i][j]<num)  j--;
+        else if (matrix[i][j]>num)  j--;
         else    i++;
     }
 
@@ -34,10 +34,10 @@ int main(){
     int n,m,num;
     cout<<"enter number of rows: ";
     std::cin>>n;
-    cout<<"enter number of columns: ";
+    cout<<"\nenter number of columns: ";
     std::cin>>m;
     vector<vector<int>> matrix;
-    cout<<"enter "<<n*m<<" elements in ascending order\n";
+    cout<<"\nenter "<<n*m<<" elements in ascending order\n";
     int temp;
     for (int i = 0; i < n; i++)
     {
@@ -52,11 +52,11 @@ int main(){
     
             
 
-    cout<<"enter the number to search: ";
+    cout<<"\nenter the number to search: ";
     std::cin>>num;  
     pair<int,int> ans;
     ans=search2d(matrix,num);
-    if(ans.first!=-1) cout<<num<<" found at index "<<ans.first<<","<<ans.second<<'\n';
-    else cout<<num<<" not found\n";
+    if(ans.first!=-1) cout<<"\n"<<num<<" found at index "<<ans.first<<","<<ans.second<<'\n';
+    else cout<<"\n"<<num<<" not found\n";
     return 0;
 }
